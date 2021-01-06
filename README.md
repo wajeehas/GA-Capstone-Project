@@ -18,7 +18,7 @@ I followed through the steps below to achieve my goals:
 
         Metrics:
     
-    DATA WRANGLING:
+  DATA WRANGLING:
 
  The first and most important step before implementing any models is to ensure that the data is in a clean, concise and suitable format. This helps us not only to clarify the type of data we have at hand, but also transform the data into a visually appealing and insightful format, as well to use machine learning tools to generate beneficial findings. Hence, the first step was to conduct data wrangling, such as dropping or replacing any missing values, converting textual data into a cleaned and uniformed format (includes removing upper case letters, punctuations, special characters, and digits) and dropping unwanted columns.  
 
