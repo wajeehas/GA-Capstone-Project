@@ -16,7 +16,7 @@ I followed through the steps below to achieve my goals:
 6. Chose 3-4 Regression Models to run on the data 
 7. Evaluate the models 
 
-    Metrics:
+        Metrics:
     
     DATA WRANGLING:
 
