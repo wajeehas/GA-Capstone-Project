@@ -3,7 +3,7 @@ DS114 - Final Capstone Project
 
 ## RETAIL PRICE PREDICTION: A regression analysis to predict retail prices of pre-owned items sold on e-commerce app called Mercari ##
 
-<b> GOALS: <b>
+<b> Goals: <b>
   
 The goal of this capstone project was to predict the retail prices of various pre-owned products sold for the US-based e-commerce marketplace called Mercari. This app is designed for everyday people where they can buy and sell different products ranging from clothes, shoes, electronics, kids toys and many more. The key issue facing users of such apps is deciding what is the optimal price to sell their products for, based on the individuals features of the product such as its condition, its branding and its shipping costs. This can be a tricky decision to make as the sellers would usually use their own judgement or conduct market research to assess what other sellers are selling them for. This can be a time-consuming process and sometimes inefficient. Therefore, in this data science project, my aim was to conduct an in-depth anaylsis of the dataset using various regression modelling techniques to predict prices as accurately as possible, given the features of the dataset. The data was found on Kaggle, which contained over 1.4 million rows and 8 different columns. Features included in the dataset were product name, item condition ID, brand name, shipping information, item description and the category of product. 
 
@@ -70,7 +70,7 @@ As seen above, most of the models gave me very similar results; most of the cros
  
 When plotting the actual vs predicted values of each model, it was clear that there is a positive correlation between the actual price values and predicted price values for random forest, linear and ridge regression. On the other hand, predictions were much more scattered around for gradient boosting model.  In conclusion, it can be seen that Random Forest Regressor appears to be the strongest model in terms on predicting the correct prices for different items sold on Mercari, both in terms of train/test scores and RMSLE scores. 
 
-<b> Limitations/Follow-up <b>
+<b> Limitations/Follow-up: <b>
   
   In terms of the drawbacks of this project, there are many additional features which were not included in the dataset, that could have been very useful in predicting prices. For example, having access to data regarding the ratings recieved for each product, as well as the reviews on the product could have been beneficial in considering what ratings or use of certain words can have an impact on price. In addition to that, as this was a pre-existing dataset, it has lower time validity, meaning that factors accounting for the largest price changes may be different 2 years ago, then they would be today. 
 
