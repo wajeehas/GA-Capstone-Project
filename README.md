@@ -1,6 +1,6 @@
 
 # GA-Capstone-Project
-DS114 - Final Capstone Project
+DSI14 - Final Capstone Project
 
 ## RETAIL PRICE PREDICTION: A regression analysis to predict retail prices of pre-owned items sold on e-commerce app called Mercari ##
 
