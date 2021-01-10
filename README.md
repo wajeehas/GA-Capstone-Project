@@ -58,14 +58,14 @@ I followed through the steps below to achieve my goals:
   Below are the training, test and mean cross validation training scores, respectively:
  1. Linear Regression: 0.413, 0.409, 0.407
  2. Ridge Regression: 0.413, 0.409, 0.407
- 3. Gradient Boosting Regressor: 0.343, 0.344, 0.343 
- 4. Random Forest Regressor: 0.516, 0.457, 0.486
+ 3. Gradient Boosting Regressor: 0.345, 0.347, 0.344 
+ 4. Random Forest Regressor: 0.516, 0.457, 0.450
     
 In terms of the RMSLE scores, the models scored as follows:
- 1. Linear Regression: 0.142
- 2. Ridge Regression: 0.142
- 3. Gradient Boosting Regressor: 0.149 
- 4. Random Forest Regressor: 0.135
+ 1. Linear Regression: 0.156
+ 2. Ridge Regression: 0.156
+ 3. Gradient Boosting Regressor: 0.150
+ 4. Random Forest Regressor: 0.163
     
 As seen above, most of the models gave me very similar results; most of the cross validation scores were close to 40-50%, which is performing above baseline. These models have performed quite consistently with each other, which gives us an indication that the models are able to make good predictions to a certain level and in the right direction based on the predictor variables. Based on the train and test scores above, we can see that Random Forest Regressor has performed the best, as compared the remaining models. In terms of the RMSLE scores, we can see again, that Random Forest Regressor has scored the lowest RMSLE score, followed by linear and ridge regression models, and finally gradient boosting. This means that the Random Forest Regressor model made predictions with the lowest relative error rate compared to the rest. 
  
