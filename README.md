@@ -4,6 +4,8 @@ DSI14 - Final Capstone Project
 
 ## RETAIL PRICE PREDICTION: A regression analysis to predict retail prices of pre-owned items sold on e-commerce app called Mercari ##
 
+You can find my code by following the link: https://github.com/wajeehas/GA-Capstone-Project/blob/main/Capstone%20Project%20-%20Retail%20Price%20Prediction%20-%20Final%20Version%20.ipynb 
+
     Goals:
   
   The goal of this capstone project was to predict the retail prices of various pre-owned products sold on the US-based e-commerce marketplace called Mercari. This app is designed for everyday people where they can buy and sell different pre-owned products ranging from clothes, shoes, electronics, kids toys and many more. The key issue facing users of such apps is deciding what is the optimal price to sell their products for, based on the individuals features of the product such as its condition, its branding and its shipping costs. This can be a tricky decision to make as the sellers would usually use their own judgement or conduct market research to assess what other sellers are selling them for. This can be a time-consuming process and sometimes inefficient. Therefore, in this data science project, my aim was to conduct an in-depth anaylsis of the Mercari dataset using various regression modelling techniques to predict prices as accurately as possible, given the features present. The data was found on Kaggle, which contained over 1.4 million rows and 8 different columns. Features included in the dataset were product name, item condition ID, brand name, shipping information, item description and the category of product. 
